@@ -1,28 +1,28 @@
 class Ycrawl < Formula
   desc "Fetch a web page, get clean markdown, with honest verdicts when a page is walled"
   homepage "https://github.com/yetidevworks/ycrawl"
-  version "0.2.1"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/ycrawl/releases/download/v0.2.1/ycrawl-0.2.1-darwin-arm64.tar.gz"
-      sha256 "f0c87f36c470d595cdec5fa895f239d6096f1f1539d50ec7805c13d181309153"
+      url "https://github.com/yetidevworks/ycrawl/releases/download/v1.0.0/ycrawl-1.0.0-darwin-arm64.tar.gz"
+      sha256 "14d10a11377aa88f2d3646df21e57ddbc17c3961510b67953b7eb8c888d61a4b"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ycrawl/releases/download/v0.2.1/ycrawl-0.2.1-darwin-x86_64.tar.gz"
-      sha256 "b02776b034eacd08302cad8f950ecabb96bbb05d1e21c27fdd54c3f5c81dd2ff"
+      url "https://github.com/yetidevworks/ycrawl/releases/download/v1.0.0/ycrawl-1.0.0-darwin-x86_64.tar.gz"
+      sha256 "690e38c6c62b10688aac609e93af3ccdc36cb31b0e77368bc9e96271c85ade46"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yetidevworks/ycrawl/releases/download/v0.2.1/ycrawl-0.2.1-linux-aarch64.tar.gz"
-      sha256 "6af4968f27c7334fb959402d17b8217d1ec5e116e5fb9ea088544f4dfeeae16b"
+      url "https://github.com/yetidevworks/ycrawl/releases/download/v1.0.0/ycrawl-1.0.0-linux-aarch64.tar.gz"
+      sha256 "bc78b65bb3b86387e393e0b5929258ecaba7325c8544a2e98d6e29fbaf40ae62"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ycrawl/releases/download/v0.2.1/ycrawl-0.2.1-linux-x86_64.tar.gz"
-      sha256 "78e3751edf7678f6ff989f6babd8563e612b4b4e6975b37f93656227320fa2e7"
+      url "https://github.com/yetidevworks/ycrawl/releases/download/v1.0.0/ycrawl-1.0.0-linux-x86_64.tar.gz"
+      sha256 "1f334b4187e0db62515f332e0c965ba0d9069f71e3eb9678d9ebc7cd599a0345"
     end
   end
 
